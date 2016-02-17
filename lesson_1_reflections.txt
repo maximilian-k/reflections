@@ -1,0 +1,33 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	It clearly separated the sections that had the difference. The Linux version was even better by showing specifically what lines where added or removed.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    By avoiding to manually have to scan through code looking for differences. Also provides a good timeline of code development.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Google is nice because you won't forget to save, or if it crashes you will lose less data. Manually is better for more specific version control, as you wouldn't want to have a version for every time google docs saved. Google might save too many. A manual commit can be done based on logical progression.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because multiple files could be related. Such as header and class files. You would likely want them all on the same version. Saving single files is probably easier to implement and track. For most users saving multiple files isn't as important.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log lists all of the commits with their unique ID, the commit comment, the date and user. This provides me a quick overview of the changes. Git diff lets me compare two versions and find their differences. Specifically it shows what lines were added and which were deleted.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    I could try new things and know I could always go back to a stable version. I would know I could easily hunt down bugs as long as I committed at appropriate times.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Saving versions of other software that I use such as CoDeSys.
