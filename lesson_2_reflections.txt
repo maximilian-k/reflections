@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+	
+	No commits are made. You must make your own commit. This is because you may not want to commit all files and allows you to add your own commit comment.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	The staging area is an intermediate directory where you can place the files you want to commit. This allows much more control over what gets committed.
