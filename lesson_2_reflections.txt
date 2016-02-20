@@ -22,3 +22,8 @@ What is the result of merging two branches together? Why do we represent it in t
 	
 	It combines the features of both branches. This is useful if someone is working on an extra feature on a separate branch.
 	A diagram is an easy way to show the commits and their parents.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Automatic merging saves you a lot of time, though it is possible that an automatic merge could still break something. 
+	Manual merges allow more control.
